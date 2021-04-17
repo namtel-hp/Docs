@@ -101,7 +101,7 @@ Open `/etc/prosody/prosody.cfg.lua` and
 Add above lines after admins object
 ```
 admins = {}
-
+https_ports = { }
 component_ports = { 5347 }
 component_interface = "0.0.0.0"
 ```
